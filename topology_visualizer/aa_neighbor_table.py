@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.table import Table
 
 app = typer.Typer(
-    help="Generate Rich Neighbor Tabel for a device",
+    help="Generate Rich Neighbor Table for a device",
     rich_markup_mode="rich",
     add_completion=False,
 )
